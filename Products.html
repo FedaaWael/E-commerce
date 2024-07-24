@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="Products.css">
+    <title>Products</title>
+</head>
+
+<body>
+    <section id="nav-container">
+        <div id="container-content">
+            <ul>
+                <li class="logo"> <a href="#"><img
+                            src="Images/pngtree-simple-fashion-elegant-woman-logo-sign-png-image_2219573-removebg-preview.png"
+                            alt=""> </a></li>
+                <li> <a href="Homepage.html">Home </a></li>
+                <li class="produ"> <a href="Products.html">Products </a></li>
+
+                <li class="username"><a href="#" id="name"><span>Name</span></a></li>
+                <li><button class="btn"><a href="Login.html">LogOut</a></button></li>
+                <li class="cart1"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="continerProduct">
+        <section class="containerOfProducts">
+            <section class="asids">
+                <aside class="leftAside">
+                    <h1>Category</h1>
+                    <ul>
+                        <button onclick="filterSelectionDresses()">
+                            <li>Dresses</li>
+                        </button>
+                        <button onclick="filterSelectionBlouses()">
+                            <li data-category="Blouses">Blouses</li>
+
+                        </button>
+                        <button onclick="filterSelectionShoes()">
+                            <li data-category="Shoes">Shoes</li>
+
+                        </button>
+                        <button onclick="filterSelectionSunglasses()">
+                            <li data-category="Sunglasses">Sunglasses</li>
+                        </button>
+                    </ul>
+                </aside>
+                <aside class="rightAside" id="product-container">
+                    <section id="cart">
+                        <div id="div1" class="hidden">
+                            <img src="Images/Green&White Dress.webp" alt="" id="img" class="product image"
+                                data-price="400.00L.E">
+                            <h1 class="h1">Green&White Dress</h1>
+                            <p class="price">Price: 400 L.E</p>
+
+                           
+                            <button> <a href="#" class="add-cart">+</a></button>
+                            <button class="view-button">View</button>
+                        </div>
+                        <!-- <hr> -->
+                        <div id="div1" class="hidden">
+                            <img src="Images/Green & Beige Dress.webp" alt="" id="img" class="product image">
+                            <h1 class="h1">Green & Beige Dress</h1>
+                            <p class="price">Price : 500 L.E</p>
+                           
+                            <button> <a href="#" class="add-cart">+</a></button>
+                            <button class="view-button">View</button>
+                        </div>
+                        <div id="div1" class="hidden">
+                            <img src="Images/Blue Dress with white belt.webp" alt="" id="img" class="product image">
+                            <h1 class="h1">Blue Dress with white belt</h1>
+                            <p class="price">Price : 1000 L.E</p>
+                         
+                            <button> <a href="#" class="add-cart">+</a></button>
+                            <button class="view-button">View</button>
+                        </div>
+                    </section>
+                    <section id="blouses1">
+                        <div id="div1" class="hidden">
+                            <img src="Images/Colorful Blouse.webp" alt="" id="img" class="product image">
+                            <h1 class="h1">Colorful Blouse</h1>
+                            <p class="price">Price : 300 L.E</p>
+                            
+                            <button> <a href="#" class="add-cart">+</a></button>
+                            <button class="view-button">View</button>
+
+                        </div>
+                        <!-- <hr> -->
+                        <div id="div1" class="hidden">
+                            <img src="Images/Blue &White Blouse.webp" alt="" id="img" class="product image">
+                            <h1 class="h1">Blue &White Blouse</h1>
+                            <p class="price">Price : 500 L.E</p>
+                          
+                            <button> <a href="#" class="add-cart">+</a></button>
+                            <button class="view-button">View</button>
+                        </div>
+                        <!-- <hr> -->
+                        <div id="div1" class="hidden">
+                            <img src="Images/Black & White Blouse.webp" alt="" id="img" class="product image">
+                            <h1 class="h1">Black & White Blouse</h1>
+                            <p class="price">Price : 600 L.E</p>
+                           
+                            <button> <a href="#" class="add-cart">+</a></button>
+                            <button class="view-button">View</button>
+                        </div>
+                    </section>
+                    <section id="shoes1">
+                        <div id="div1" class="hidden">
+                            <img src="Images/Beige Shoes.webp" alt="" id="img" class="product image">
+                            <h1 class="h1">Beige Shoes with strap</h1>
+                            <p class="price">Price : 400 L.E</p>
+                          
+                            <button> <a href="#" class="add-cart">+</a></button>
+                            <button class="view-button">View</button>
+
+                        </div>
+                        <!-- <hr> -->
+                        <div id="div1" class="hidden">
+                            <img src="Images/Black & White Shoes.webp" alt="" id="img" class="product image">
+                            <h1 class="h1">Black & White Shoes</h1>
+                            <p class="price">Price : 500 L.E</p>
+                           
+                            <button> <a href="#" class="add-cart">+</a></button>
+                            <button class="view-button">View</button>
+                        </div>
+                        <!-- <hr> -->
+                        <div id="div1" class="hidden">
+                            <img src="Images/Black Shoes.webp" alt="" id="img" class="product image">
+                            <h1 class="h1">Black Shoes</h1>
+                            <p class="price">Price : 1000 L.E</p>
+                           
+                            <button> <a href="" class="add-cart">+</a></button>
+                            <button class="view-button">View</button>
+                        </div>
+                    </section>
+                    <section id="sunglasses">
+                        <div id="div1" class="hidden">
+                            <img src="Images/Dark Pink Sunglasses.webp" alt="" id="img" class="product image">
+                            <h1 class="h1">Dark Pink Sunglasses</h1>
+                            <p class="price">Price : 300 L.E</p>
+                           
+                            <button> <a href="#" class="add-cart">+</a></button>
+                            <button class="view-button">View</button>
+
+                        </div>
+                        <!-- <hr> -->
+                        <div id="div1" class="hidden">
+                            <img src="Images/Pink Sunglasses.webp" alt="" id="img" class="product image">
+                            <h1 class="h1">Pink Sunglasses</h1>
+                            <p class="price">Price : 200 L.E</p>
+                           
+                            <button> <a href="#" class="add-cart">+</a></button>
+                            <button class="view-button">View</button>
+                        </div>
+                        <!-- <hr> -->
+                        <div id="div1" class="hidden">
+                            <img src="Images/Purple Sunglasses.webp" alt="" id="img" class="product image">
+                            <h1 class="h1">Purple Sunglasses</h1>
+                            <p class="price">Price : 1000 L.E</p>
+                            
+                            <button> <a href="#" class="add-cart">+</a></button>
+                            <button class="view-button">View</button>
+                        </div>
+                    </section>
+
+            </section>
+            </div>
+            </aside>
+
+        </section>
+    </section>
+    </section>
+    <footer class="footer">
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""> <i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""> <i class="fab fa-snapchat"></i></a>
+    </footer>
+    <script src="Products.js"></script>
+    <script src="cartdetails.js"></script>
+    <script src="Login.js"></script>
+    <script src="view.js"></script>
+</body>
+
+</html>

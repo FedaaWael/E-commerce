@@ -1,0 +1,165 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #efe3d2;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 50px;
+    justify-content: center;
+    position: fixed;
+    background-color: white;
+    width: 95%;
+    z-index: 999;
+    /* margin-top: -20px; */
+}
+
+ul li a {
+    color: #6a5a4d
+}
+
+#container-content ul li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-left: 110px;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container-content ul li button {
+    display: inline-block;
+    border-radius: 20px;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 200px;
+    background-color: #6a5a4d;
+    border: none;
+    height: 60px;
+}
+
+#container-content ul li .btn a {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.btn {
+    width: 200px;
+    background-color: #433BFF;
+    border: none;
+}
+
+.logo img {
+    position: absolute;
+    top: -50px;
+    width: 200px;
+    left: 10px;
+
+}
+
+#product-details {
+    border: 3px solid #6a5a4d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 1200px;
+    position: relative;
+    top: 200px;
+    left: 300px;
+    padding: 50px;
+}
+
+#product-image {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    filter: drop-shadow(3px 3px 5px rgb(110, 109, 109));
+    border-radius: 10px;
+
+}
+
+#product-name {
+    color: #6a5a4d;
+    display: auto;
+    position: absolute;
+    left: 680px;
+    top: 100px;
+    font-size: 40px;
+}
+
+#price {
+    color: #6a5a4d;
+    display: auto;
+    position: absolute;
+    left: 750px;
+    top: 200px;
+    font-size: 30px;
+}
+
+
+.btn2 {
+    /* font-size: 50px; */
+    display: inline-block;
+    width: 400px;
+    padding: 30px 30px;
+    height: 20px;
+    position: relative;
+    left: 200px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 50px;
+    border: none;
+    background-color: #6a5a4d;
+    top: -50px;
+    border-radius: 20px;
+}
+
+.add-cart {
+    color: #f6f6f6;
+}
+
+.footer {
+    margin-top: 350px;
+    height: 200px;
+    background-color: #f6f6f6;
+}
+
+.footer .fa-twitter {
+    color: #3498db;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 750px;
+}
+
+.footer .fa-facebook,
+.fa-instagram,
+.fa-snapchat {
+    color: #3498db;
+    font-size: 40px;
+    margin-left: 70px;
+}
+
+select {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 460px;
+    left: 1030px;
+    background-color: #6a5a4d;
+    color: #f6f6f6;
+    /* margin-top: 180px; */
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 15px;
+
+}
+
+select option {
+    font-size: 15px;
+}

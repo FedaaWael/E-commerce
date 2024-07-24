@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <section id="container">
+        <div class="card">
+            <div class="card-body">
+                <h1>Login Form</h1>
+                <form class="form" onsubmit="submit($event) " id="form1">
+                    <label for="name" id="username">Enter Name:</label>
+                    <input type="text" name="name" placeholder="Enter Your Name" id="user">
+                    <span id="resultName"></span>
+                    <label for="name" id="nameLabel">Enter Email:</label>
+                    <input type="text" name="name" placeholder="Enter Your Email" id="email">
+                    <span id="resultEmail"></span>
+                    <label for="name" id="pass1">Enter Password:</label>
+                    <input type="password" name="name" placeholder="Enter Your Password" id="pass">
+                    <span id="resultPassword1"></span>
+                    <label for="name" id="pass2">Confirm Password:</label>
+                    <input type="password" name="name" placeholder="Confirm Your Password" id="pass3">
+                    <span id="resultPassword2"></span>
+                    <button type="submit">Submit</button>
+                    <!-- <p id="result"></p> -->
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="Homepage.js"></script>
+    <script src="Login.js"></script>
+</body>
+
+</html>

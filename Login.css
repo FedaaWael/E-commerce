@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 100%;
+    background-color: #edecec;
+    height: 930px;
+}
+
+.card {
+    background-color: #a68f7b;
+    width: 700px;
+    height: 850px;
+    position: absolute;
+    top: 60px;
+    left: 560px;
+    border: none;
+    filter: drop-shadow(5px 5px 15px black);
+    border-radius: 30px;
+}
+
+.card-body h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    color: #edecec;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form {
+    width: 200px;
+}
+
+.form #nameLabel {
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    top: 270px;
+    left: 150px;
+    color: #edecec;
+    letter-spacing: 1px;
+
+}
+
+.form #username {
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    top: 120px;
+    left: 150px;
+    color: #edecec;
+    letter-spacing: 1px;
+}
+
+.form #pass1 {
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    top: 430px;
+    left: 150px;
+    color: #edecec;
+    letter-spacing: 1px;
+
+}
+
+.form #pass2 {
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    top: 590px;
+    left: 150px;
+    color: #edecec;
+    letter-spacing: 1px;
+}
+
+
+.form ::placeholder {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    opacity: 0.7;
+}
+
+.form input {
+    width: 400px;
+    height: 70px;
+    border: none;
+    margin-left: 150px;
+    margin-top: 80px;
+    border-radius: 20px;
+    filter: drop-shadow(3px 3px 5px rgb(110, 109, 109));
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.form #pass3 {
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    top: 560px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: center;
+    filter: drop-shadow(3px 3px 5px rgb(110, 109, 109));
+}
+
+.card button {
+    width: 250px;
+    margin-top: 220px;
+    height: 50px;
+    border: none;
+    margin-left: 220px;
+    background-color: rgb(236, 236, 236);
+    color: #6a5a4d;
+    font-size: 20px;
+    border-radius: 20px;
+    filter: drop-shadow(3px 3px 5px rgb(110, 109, 109));
+}
+
+span {
+    /* font-size: 20px; */
+    position: absolute;
+    left: 150px;
+}
+
+#resultPassword2 {
+    bottom: 100px;
+}
